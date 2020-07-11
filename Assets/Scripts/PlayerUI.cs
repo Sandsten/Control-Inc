@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class PlayerUI : MonoBehaviour
 {
@@ -63,7 +64,10 @@ public class PlayerUI : MonoBehaviour
     void Update()
     {
         
-        text.text = "Mana forward: " + GameObject.Find("Player").GetComponent<Player>().manaForward.ToString();
+        text.text = "Mana forward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaForward).ToString() + 
+        " Mana backward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaBackwards).ToString() +
+        " Mana right: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaRight).ToString() +
+        " Mana left: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaLeft).ToString();
     }
 
     /* public void DisplayMana(float mf, float mb, float mr, float ml)
