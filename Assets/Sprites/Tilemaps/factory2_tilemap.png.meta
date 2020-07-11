@@ -1,7 +1,1123 @@
 fileFormatVersion: 2
 guid: e2546751bfc69c64594db56353fd9a09
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2301524906229907807
+    second: factory2_tilemap_0
+  - first:
+      213: 7751946696892498369
+    second: factory2_tilemap_1
+  - first:
+      213: 4706978116300371020
+    second: factory2_tilemap_2
+  - first:
+      213: 3341614808065858619
+    second: factory2_tilemap_3
+  - first:
+      213: 6671911152420626965
+    second: factory2_tilemap_4
+  - first:
+      213: 676168321032217141
+    second: factory2_tilemap_5
+  - first:
+      213: 4879614860069505973
+    second: factory2_tilemap_6
+  - first:
+      213: 1050369357813533083
+    second: factory2_tilemap_7
+  - first:
+      213: -8366780714236821557
+    second: factory2_tilemap_8
+  - first:
+      213: -2375235387683943924
+    second: factory2_tilemap_9
+  - first:
+      213: -5807497852034330689
+    second: factory2_tilemap_10
+  - first:
+      213: -4302953715605187934
+    second: factory2_tilemap_11
+  - first:
+      213: 1255415345169754472
+    second: factory2_tilemap_12
+  - first:
+      213: 4301828788645658453
+    second: factory2_tilemap_13
+  - first:
+      213: -6287977919226453566
+    second: factory2_tilemap_14
+  - first:
+      213: -7192755118373255888
+    second: factory2_tilemap_15
+  - first:
+      213: -8827673209728871434
+    second: factory2_tilemap_16
+  - first:
+      213: -7179919484703157453
+    second: factory2_tilemap_17
+  - first:
+      213: -7109838528291890412
+    second: factory2_tilemap_18
+  - first:
+      213: 5853604605367075779
+    second: factory2_tilemap_19
+  - first:
+      213: 7978932015493371935
+    second: factory2_tilemap_20
+  - first:
+      213: 5001282844485772431
+    second: factory2_tilemap_21
+  - first:
+      213: -8844677527770177877
+    second: factory2_tilemap_22
+  - first:
+      213: -2795243295415873570
+    second: factory2_tilemap_23
+  - first:
+      213: 8402977036464976653
+    second: factory2_tilemap_24
+  - first:
+      213: -8356243175942967468
+    second: factory2_tilemap_25
+  - first:
+      213: 3408379170223025721
+    second: factory2_tilemap_26
+  - first:
+      213: 3114935627834486719
+    second: factory2_tilemap_27
+  - first:
+      213: -4831474038766939030
+    second: factory2_tilemap_28
+  - first:
+      213: 2887755748654004872
+    second: factory2_tilemap_29
+  - first:
+      213: -2327301159638570046
+    second: factory2_tilemap_30
+  - first:
+      213: -3348146677520402154
+    second: factory2_tilemap_31
+  - first:
+      213: 108550759442739459
+    second: factory2_tilemap_32
+  - first:
+      213: 856729925460743421
+    second: factory2_tilemap_33
+  - first:
+      213: -4795936584316742415
+    second: factory2_tilemap_34
+  - first:
+      213: 1921519273512567695
+    second: factory2_tilemap_35
+  - first:
+      213: -7716666887387383994
+    second: factory2_tilemap_36
+  - first:
+      213: 5301831041108992124
+    second: factory2_tilemap_37
+  - first:
+      213: -2175916461339963728
+    second: factory2_tilemap_38
+  - first:
+      213: -631518515203592973
+    second: factory2_tilemap_39
+  - first:
+      213: -8280717313522863370
+    second: factory2_tilemap_40
+  - first:
+      213: 7685037218476701481
+    second: factory2_tilemap_41
+  - first:
+      213: 6232072881159052512
+    second: factory2_tilemap_42
+  - first:
+      213: 3147529246990401902
+    second: factory2_tilemap_43
+  - first:
+      213: 1024130567931403535
+    second: factory2_tilemap_44
+  - first:
+      213: 6345315042415786731
+    second: factory2_tilemap_45
+  - first:
+      213: -8109546152652421812
+    second: factory2_tilemap_46
+  - first:
+      213: -4992446821003130276
+    second: factory2_tilemap_47
+  - first:
+      213: -4821726024253066312
+    second: factory2_tilemap_48
+  - first:
+      213: 5946481425712839671
+    second: factory2_tilemap_49
+  - first:
+      213: 9215388058972127483
+    second: factory2_tilemap_50
+  - first:
+      213: -9124768201461626460
+    second: factory2_tilemap_51
+  - first:
+      213: 7548266444906005572
+    second: factory2_tilemap_52
+  - first:
+      213: 4442284273723012150
+    second: factory2_tilemap_53
+  - first:
+      213: 1504290738589370464
+    second: factory2_tilemap_54
+  - first:
+      213: 122332165632821788
+    second: factory2_tilemap_55
+  - first:
+      213: -544335928306399026
+    second: factory2_tilemap_56
+  - first:
+      213: -4611145299255056717
+    second: factory2_tilemap_57
+  - first:
+      213: 2359312136722314748
+    second: factory2_tilemap_58
+  - first:
+      213: 2849031003517050774
+    second: factory2_tilemap_59
+  - first:
+      213: -8844573627778864889
+    second: factory2_tilemap_60
+  - first:
+      213: 7465225823377446852
+    second: factory2_tilemap_61
+  - first:
+      213: -1491346348877672757
+    second: factory2_tilemap_62
+  - first:
+      213: -4461226838392065242
+    second: factory2_tilemap_63
+  - first:
+      213: 5194059164969623113
+    second: factory2_tilemap_64
+  - first:
+      213: 6275539531956691990
+    second: factory2_tilemap_65
+  - first:
+      213: 879645130722789627
+    second: factory2_tilemap_66
+  - first:
+      213: -7864323262439680688
+    second: factory2_tilemap_67
+  - first:
+      213: -864332186132240724
+    second: factory2_tilemap_68
+  - first:
+      213: 840098274895649226
+    second: factory2_tilemap_69
+  - first:
+      213: 1760476946238096384
+    second: factory2_tilemap_70
+  - first:
+      213: -8605663457687023833
+    second: factory2_tilemap_71
+  - first:
+      213: -5116899612533653798
+    second: factory2_tilemap_72
+  - first:
+      213: 5882184516509367131
+    second: factory2_tilemap_73
+  - first:
+      213: 8662164974255558728
+    second: factory2_tilemap_74
+  - first:
+      213: 7867008997230067659
+    second: factory2_tilemap_75
+  - first:
+      213: 8444269565963575521
+    second: factory2_tilemap_76
+  - first:
+      213: 1286463294137020179
+    second: factory2_tilemap_77
+  - first:
+      213: -2060523309298788909
+    second: factory2_tilemap_78
+  - first:
+      213: -8672090926922126585
+    second: factory2_tilemap_79
+  - first:
+      213: 3962511411590327200
+    second: factory2_tilemap_80
+  - first:
+      213: -119216276788891085
+    second: factory2_tilemap_81
+  - first:
+      213: 5549263646526076301
+    second: factory2_tilemap_82
+  - first:
+      213: -1487770004519361855
+    second: factory2_tilemap_83
+  - first:
+      213: 5858561931935451917
+    second: factory2_tilemap_84
+  - first:
+      213: -8243804188061440121
+    second: factory2_tilemap_85
+  - first:
+      213: 5182198444592600809
+    second: factory2_tilemap_86
+  - first:
+      213: 2403168359354685537
+    second: factory2_tilemap_87
+  - first:
+      213: 2165967487390255313
+    second: factory2_tilemap_88
+  - first:
+      213: -8683264442107079872
+    second: factory2_tilemap_89
+  - first:
+      213: 5640818366279707958
+    second: factory2_tilemap_90
+  - first:
+      213: 372807137980800502
+    second: factory2_tilemap_91
+  - first:
+      213: -6857943802377475319
+    second: factory2_tilemap_92
+  - first:
+      213: -5950083883481327622
+    second: factory2_tilemap_93
+  - first:
+      213: 6793777569819587948
+    second: factory2_tilemap_94
+  - first:
+      213: 2233197490832815271
+    second: factory2_tilemap_95
+  - first:
+      213: 1880467454361834921
+    second: factory2_tilemap_96
+  - first:
+      213: -7238175596703811961
+    second: factory2_tilemap_97
+  - first:
+      213: -9146323997609066207
+    second: factory2_tilemap_98
+  - first:
+      213: 8138792363597122263
+    second: factory2_tilemap_99
+  - first:
+      213: 5720533060012218323
+    second: factory2_tilemap_100
+  - first:
+      213: -5674739004882529545
+    second: factory2_tilemap_101
+  - first:
+      213: -103504850891803656
+    second: factory2_tilemap_102
+  - first:
+      213: -7276664451743491583
+    second: factory2_tilemap_103
+  - first:
+      213: -5249157207875095065
+    second: factory2_tilemap_104
+  - first:
+      213: -5209814581853587500
+    second: factory2_tilemap_105
+  - first:
+      213: 1998256344002700229
+    second: factory2_tilemap_106
+  - first:
+      213: 3402202460460269064
+    second: factory2_tilemap_107
+  - first:
+      213: 3014148998027086876
+    second: factory2_tilemap_108
+  - first:
+      213: -1631771529056235919
+    second: factory2_tilemap_109
+  - first:
+      213: 7399396529533741094
+    second: factory2_tilemap_110
+  - first:
+      213: 8548548363842099267
+    second: factory2_tilemap_111
+  - first:
+      213: -5790105034231903605
+    second: factory2_tilemap_112
+  - first:
+      213: -8646244680729804415
+    second: factory2_tilemap_113
+  - first:
+      213: -8908797276649794897
+    second: factory2_tilemap_114
+  - first:
+      213: -2873716537339916084
+    second: factory2_tilemap_115
+  - first:
+      213: -7134329373064986619
+    second: factory2_tilemap_116
+  - first:
+      213: -7362204312258503047
+    second: factory2_tilemap_117
+  - first:
+      213: -3963186442512989439
+    second: factory2_tilemap_118
+  - first:
+      213: -1730093903721481206
+    second: factory2_tilemap_119
+  - first:
+      213: 2748693605226121715
+    second: factory2_tilemap_120
+  - first:
+      213: -7175348134375641082
+    second: factory2_tilemap_121
+  - first:
+      213: -7613846971178088341
+    second: factory2_tilemap_122
+  - first:
+      213: -5136211733459266185
+    second: factory2_tilemap_0
+  - first:
+      213: -3041134304426040600
+    second: factory2_tilemap_1
+  - first:
+      213: -9199184312506326510
+    second: factory2_tilemap_2
+  - first:
+      213: 5404998100763435777
+    second: factory2_tilemap_3
+  - first:
+      213: 6681967091418954517
+    second: factory2_tilemap_4
+  - first:
+      213: 1289812334542024865
+    second: factory2_tilemap_5
+  - first:
+      213: 3289794704489857934
+    second: factory2_tilemap_6
+  - first:
+      213: -7416240103707929467
+    second: factory2_tilemap_7
+  - first:
+      213: 6882118429069279864
+    second: factory2_tilemap_8
+  - first:
+      213: -8339522882242467234
+    second: factory2_tilemap_9
+  - first:
+      213: 3111287292481063333
+    second: factory2_tilemap_10
+  - first:
+      213: 4613218589790545179
+    second: factory2_tilemap_11
+  - first:
+      213: 8016597650862643311
+    second: factory2_tilemap_12
+  - first:
+      213: -9005417699595452607
+    second: factory2_tilemap_13
+  - first:
+      213: 677524182885368484
+    second: factory2_tilemap_14
+  - first:
+      213: 6313366414553593218
+    second: factory2_tilemap_15
+  - first:
+      213: 2837994913433416036
+    second: factory2_tilemap_16
+  - first:
+      213: -7378285747961234239
+    second: factory2_tilemap_17
+  - first:
+      213: -7029937001144831902
+    second: factory2_tilemap_18
+  - first:
+      213: -6329937532113479587
+    second: factory2_tilemap_19
+  - first:
+      213: 5908276887140058001
+    second: factory2_tilemap_20
+  - first:
+      213: 1674834971793842454
+    second: factory2_tilemap_21
+  - first:
+      213: 2798925045020791644
+    second: factory2_tilemap_22
+  - first:
+      213: 6846335759834279503
+    second: factory2_tilemap_23
+  - first:
+      213: -8414631194591219498
+    second: factory2_tilemap_24
+  - first:
+      213: 320153861179697747
+    second: factory2_tilemap_25
+  - first:
+      213: 8299200670323214359
+    second: factory2_tilemap_26
+  - first:
+      213: 9213130704723536744
+    second: factory2_tilemap_27
+  - first:
+      213: -480307958300987220
+    second: factory2_tilemap_28
+  - first:
+      213: -4477553832413151528
+    second: factory2_tilemap_29
+  - first:
+      213: -7093535809217421357
+    second: factory2_tilemap_30
+  - first:
+      213: -668617920863384983
+    second: factory2_tilemap_31
+  - first:
+      213: -6854671870887114194
+    second: factory2_tilemap_32
+  - first:
+      213: -5279544282639711429
+    second: factory2_tilemap_33
+  - first:
+      213: 4344661346421209139
+    second: factory2_tilemap_34
+  - first:
+      213: 4828321634326326310
+    second: factory2_tilemap_35
+  - first:
+      213: 8881084649119950270
+    second: factory2_tilemap_36
+  - first:
+      213: -3260267765355434368
+    second: factory2_tilemap_37
+  - first:
+      213: 8996188108867195147
+    second: factory2_tilemap_38
+  - first:
+      213: -3376304145965745708
+    second: factory2_tilemap_39
+  - first:
+      213: 5588975622472082823
+    second: factory2_tilemap_40
+  - first:
+      213: -5258203091786044351
+    second: factory2_tilemap_41
+  - first:
+      213: -5556474501547911352
+    second: factory2_tilemap_42
+  - first:
+      213: -6200441454296253056
+    second: factory2_tilemap_43
+  - first:
+      213: 1237546828098374170
+    second: factory2_tilemap_44
+  - first:
+      213: 3743779614055116242
+    second: factory2_tilemap_45
+  - first:
+      213: 2730664111325290823
+    second: factory2_tilemap_46
+  - first:
+      213: 3764427068443141676
+    second: factory2_tilemap_47
+  - first:
+      213: 6707647247509351413
+    second: factory2_tilemap_48
+  - first:
+      213: 6759020927171996971
+    second: factory2_tilemap_49
+  - first:
+      213: 3879102953612972221
+    second: factory2_tilemap_50
+  - first:
+      213: 7265124431953967755
+    second: factory2_tilemap_51
+  - first:
+      213: -4944369579217502285
+    second: factory2_tilemap_52
+  - first:
+      213: 1393582701747434993
+    second: factory2_tilemap_53
+  - first:
+      213: 4252196445787191781
+    second: factory2_tilemap_54
+  - first:
+      213: 6237699629329996355
+    second: factory2_tilemap_55
+  - first:
+      213: -285077909128098881
+    second: factory2_tilemap_56
+  - first:
+      213: 7805160800099328324
+    second: factory2_tilemap_57
+  - first:
+      213: 7941020510466962942
+    second: factory2_tilemap_58
+  - first:
+      213: 1737832966849077494
+    second: factory2_tilemap_59
+  - first:
+      213: 9058725267457112982
+    second: factory2_tilemap_60
+  - first:
+      213: -7980066256458044550
+    second: factory2_tilemap_61
+  - first:
+      213: 2780169682329377964
+    second: factory2_tilemap_62
+  - first:
+      213: -7541869818057591202
+    second: factory2_tilemap_63
+  - first:
+      213: -2594937955340287492
+    second: factory2_tilemap_64
+  - first:
+      213: -7027830780062236660
+    second: factory2_tilemap_65
+  - first:
+      213: -1627823622053857327
+    second: factory2_tilemap_66
+  - first:
+      213: 543888723744415276
+    second: factory2_tilemap_67
+  - first:
+      213: -7418631764250059738
+    second: factory2_tilemap_68
+  - first:
+      213: 3706620697674872
+    second: factory2_tilemap_69
+  - first:
+      213: 877097969895352978
+    second: factory2_tilemap_70
+  - first:
+      213: -7611001380515488950
+    second: factory2_tilemap_71
+  - first:
+      213: 2003754489436533747
+    second: factory2_tilemap_72
+  - first:
+      213: -496693401921798280
+    second: factory2_tilemap_73
+  - first:
+      213: 5670523412182380383
+    second: factory2_tilemap_74
+  - first:
+      213: 6325434559794264726
+    second: factory2_tilemap_75
+  - first:
+      213: -5795332327219288305
+    second: factory2_tilemap_76
+  - first:
+      213: -6009443593656052204
+    second: factory2_tilemap_77
+  - first:
+      213: 158738259684631629
+    second: factory2_tilemap_78
+  - first:
+      213: 5051299718260191582
+    second: factory2_tilemap_79
+  - first:
+      213: -8021214583335696030
+    second: factory2_tilemap_80
+  - first:
+      213: -4984850549728470983
+    second: factory2_tilemap_81
+  - first:
+      213: 1013939801237252820
+    second: factory2_tilemap_82
+  - first:
+      213: 13614167565471075
+    second: factory2_tilemap_83
+  - first:
+      213: -5641329399361333738
+    second: factory2_tilemap_84
+  - first:
+      213: 5209453013015963915
+    second: factory2_tilemap_85
+  - first:
+      213: -7330138437136439109
+    second: factory2_tilemap_86
+  - first:
+      213: 2610728434813401640
+    second: factory2_tilemap_87
+  - first:
+      213: 4772097155246783972
+    second: factory2_tilemap_88
+  - first:
+      213: -1302993246566416002
+    second: factory2_tilemap_89
+  - first:
+      213: 8723492815930886390
+    second: factory2_tilemap_90
+  - first:
+      213: -2679861045027632299
+    second: factory2_tilemap_91
+  - first:
+      213: 2360785542484311869
+    second: factory2_tilemap_92
+  - first:
+      213: 1667093107744988294
+    second: factory2_tilemap_93
+  - first:
+      213: 173605560863086632
+    second: factory2_tilemap_94
+  - first:
+      213: -7892159687592560650
+    second: factory2_tilemap_95
+  - first:
+      213: 8089663296872427662
+    second: factory2_tilemap_96
+  - first:
+      213: 2159142374197511044
+    second: factory2_tilemap_97
+  - first:
+      213: 8165458302614918383
+    second: factory2_tilemap_98
+  - first:
+      213: 7352282871190439597
+    second: factory2_tilemap_99
+  - first:
+      213: 7591746910110654975
+    second: factory2_tilemap_100
+  - first:
+      213: -6638843375273810460
+    second: factory2_tilemap_101
+  - first:
+      213: -521552905983198686
+    second: factory2_tilemap_102
+  - first:
+      213: -5063102456179814840
+    second: factory2_tilemap_103
+  - first:
+      213: -6665405765787204820
+    second: factory2_tilemap_104
+  - first:
+      213: 2549997949206518553
+    second: factory2_tilemap_105
+  - first:
+      213: 4222318155923066239
+    second: factory2_tilemap_106
+  - first:
+      213: 1630624302452974568
+    second: factory2_tilemap_107
+  - first:
+      213: 7952341081891565099
+    second: factory2_tilemap_108
+  - first:
+      213: -4870420585521986334
+    second: factory2_tilemap_109
+  - first:
+      213: 809955333323208119
+    second: factory2_tilemap_110
+  - first:
+      213: 3633095990520592017
+    second: factory2_tilemap_111
+  - first:
+      213: -1866045754464603884
+    second: factory2_tilemap_112
+  - first:
+      213: 438411828761893862
+    second: factory2_tilemap_113
+  - first:
+      213: -9175999659965035088
+    second: factory2_tilemap_114
+  - first:
+      213: -134168482393230511
+    second: factory2_tilemap_115
+  - first:
+      213: -89339929113529001
+    second: factory2_tilemap_116
+  - first:
+      213: 2905271733178396223
+    second: factory2_tilemap_117
+  - first:
+      213: -2173700278370389280
+    second: factory2_tilemap_118
+  - first:
+      213: -956131504753874362
+    second: factory2_tilemap_119
+  - first:
+      213: -3872249083352673104
+    second: factory2_tilemap_120
+  - first:
+      213: 2038216390756835208
+    second: factory2_tilemap_121
+  - first:
+      213: 6531354120359673205
+    second: factory2_tilemap_122
+  - first:
+      213: 8705733949059447504
+    second: factory2_tilemap_123
+  - first:
+      213: 8578819846170551421
+    second: factory2_tilemap_124
+  - first:
+      213: 3635879779464928287
+    second: factory2_tilemap_125
+  - first:
+      213: 1408618667854012417
+    second: factory2_tilemap_126
+  - first:
+      213: 2482829450451599023
+    second: factory2_tilemap_127
+  - first:
+      213: -7214589261631691456
+    second: factory2_tilemap_128
+  - first:
+      213: -393579552206138954
+    second: factory2_tilemap_129
+  - first:
+      213: -5665672175833497188
+    second: factory2_tilemap_130
+  - first:
+      213: -7565545783672008494
+    second: factory2_tilemap_131
+  - first:
+      213: 838806829248707911
+    second: factory2_tilemap_132
+  - first:
+      213: 8476916973490041236
+    second: factory2_tilemap_133
+  - first:
+      213: 8172719261982314530
+    second: factory2_tilemap_134
+  - first:
+      213: -9102137226115912568
+    second: factory2_tilemap_135
+  - first:
+      213: -6554987419870435211
+    second: factory2_tilemap_136
+  - first:
+      213: 7119372996751900610
+    second: factory2_tilemap_137
+  - first:
+      213: 7263854255452837704
+    second: factory2_tilemap_138
+  - first:
+      213: -8985249387108886873
+    second: factory2_tilemap_139
+  - first:
+      213: 3511668297770465805
+    second: factory2_tilemap_140
+  - first:
+      213: -8269099356832020484
+    second: factory2_tilemap_141
+  - first:
+      213: 6840561236407858760
+    second: factory2_tilemap_142
+  - first:
+      213: -2095112951202710113
+    second: factory2_tilemap_143
+  - first:
+      213: -5719101752010726256
+    second: factory2_tilemap_144
+  - first:
+      213: 7114112343516906721
+    second: factory2_tilemap_145
+  - first:
+      213: 5579218697066086979
+    second: factory2_tilemap_146
+  - first:
+      213: 5193720472208233168
+    second: factory2_tilemap_147
+  - first:
+      213: -1657409840204399719
+    second: factory2_tilemap_148
+  - first:
+      213: -7608572346436214663
+    second: factory2_tilemap_149
+  - first:
+      213: -7511624978304737972
+    second: factory2_tilemap_150
+  - first:
+      213: -6640360728587952398
+    second: factory2_tilemap_151
+  - first:
+      213: 1344774287606350020
+    second: factory2_tilemap_152
+  - first:
+      213: 6876898277295227670
+    second: factory2_tilemap_153
+  - first:
+      213: 8819195040066752178
+    second: factory2_tilemap_154
+  - first:
+      213: -6125747836134392439
+    second: factory2_tilemap_155
+  - first:
+      213: 3042765776169937638
+    second: factory2_tilemap_156
+  - first:
+      213: -1945500430442572436
+    second: factory2_tilemap_157
+  - first:
+      213: -1077550708537844359
+    second: factory2_tilemap_158
+  - first:
+      213: -2589148855737622441
+    second: factory2_tilemap_159
+  - first:
+      213: -6450183456375251653
+    second: factory2_tilemap_160
+  - first:
+      213: 1790413377057317291
+    second: factory2_tilemap_161
+  - first:
+      213: -4540562273360715869
+    second: factory2_tilemap_162
+  - first:
+      213: 7447223975141684979
+    second: factory2_tilemap_163
+  - first:
+      213: 2629367712945353904
+    second: factory2_tilemap_164
+  - first:
+      213: -5771511716467454780
+    second: factory2_tilemap_165
+  - first:
+      213: -1072038126656979266
+    second: factory2_tilemap_166
+  - first:
+      213: -7078729472422756757
+    second: factory2_tilemap_167
+  - first:
+      213: 256345287089530513
+    second: factory2_tilemap_168
+  - first:
+      213: 5571623616044894627
+    second: factory2_tilemap_169
+  - first:
+      213: -559067929205197225
+    second: factory2_tilemap_170
+  - first:
+      213: -2333103052697740251
+    second: factory2_tilemap_171
+  - first:
+      213: -1269912337346973713
+    second: factory2_tilemap_172
+  - first:
+      213: 936137198205276957
+    second: factory2_tilemap_173
+  - first:
+      213: -6429072934563775164
+    second: factory2_tilemap_174
+  - first:
+      213: -53058119979372943
+    second: factory2_tilemap_175
+  - first:
+      213: 4815175110141088435
+    second: factory2_tilemap_176
+  - first:
+      213: 5835995595719528369
+    second: factory2_tilemap_177
+  - first:
+      213: -7119522656299228159
+    second: factory2_tilemap_178
+  - first:
+      213: 3215923962861609552
+    second: factory2_tilemap_179
+  - first:
+      213: -3502895747896463569
+    second: factory2_tilemap_180
+  - first:
+      213: -7692893355899374489
+    second: factory2_tilemap_181
+  - first:
+      213: -4753592564762881848
+    second: factory2_tilemap_182
+  - first:
+      213: 5048541848399744811
+    second: factory2_tilemap_183
+  - first:
+      213: 1545348736833754133
+    second: factory2_tilemap_184
+  - first:
+      213: 3601867941236825334
+    second: factory2_tilemap_185
+  - first:
+      213: 8860109980934966248
+    second: factory2_tilemap_123
+  - first:
+      213: 5550974249254572596
+    second: factory2_tilemap_124
+  - first:
+      213: -824457086726425516
+    second: factory2_tilemap_125
+  - first:
+      213: 6550494566100836769
+    second: factory2_tilemap_126
+  - first:
+      213: -5628397155708011338
+    second: factory2_tilemap_127
+  - first:
+      213: -4199014196475224155
+    second: factory2_tilemap_128
+  - first:
+      213: -5660110928333553083
+    second: factory2_tilemap_129
+  - first:
+      213: -8099493839346003637
+    second: factory2_tilemap_130
+  - first:
+      213: 4790136593935251719
+    second: factory2_tilemap_131
+  - first:
+      213: 3877655389364861081
+    second: factory2_tilemap_132
+  - first:
+      213: 7950007285195211106
+    second: factory2_tilemap_133
+  - first:
+      213: -4558383961224771253
+    second: factory2_tilemap_134
+  - first:
+      213: -4464872544523400035
+    second: factory2_tilemap_135
+  - first:
+      213: -2582560262658364269
+    second: factory2_tilemap_136
+  - first:
+      213: -3759742567374149766
+    second: factory2_tilemap_137
+  - first:
+      213: -4474366809885818730
+    second: factory2_tilemap_138
+  - first:
+      213: -2833568728062855289
+    second: factory2_tilemap_139
+  - first:
+      213: 7293820193062842879
+    second: factory2_tilemap_140
+  - first:
+      213: 3063688279827271260
+    second: factory2_tilemap_141
+  - first:
+      213: 7473144986391698936
+    second: factory2_tilemap_142
+  - first:
+      213: -1718803154415271153
+    second: factory2_tilemap_143
+  - first:
+      213: 5283002517673284978
+    second: factory2_tilemap_144
+  - first:
+      213: 7872476057420677046
+    second: factory2_tilemap_145
+  - first:
+      213: 7984759543565660371
+    second: factory2_tilemap_146
+  - first:
+      213: 4211807890241547220
+    second: factory2_tilemap_147
+  - first:
+      213: 8254142974235578391
+    second: factory2_tilemap_148
+  - first:
+      213: 1219484703857166601
+    second: factory2_tilemap_149
+  - first:
+      213: 5424878138214848326
+    second: factory2_tilemap_150
+  - first:
+      213: -4852628723429628712
+    second: factory2_tilemap_151
+  - first:
+      213: 394242788482512464
+    second: factory2_tilemap_152
+  - first:
+      213: 5658659595870703992
+    second: factory2_tilemap_153
+  - first:
+      213: 6425037170706960314
+    second: factory2_tilemap_154
+  - first:
+      213: -1335973572533991468
+    second: factory2_tilemap_155
+  - first:
+      213: 5042419845501862170
+    second: factory2_tilemap_156
+  - first:
+      213: -4267027760316907709
+    second: factory2_tilemap_157
+  - first:
+      213: 3471162134126384880
+    second: factory2_tilemap_158
+  - first:
+      213: 5536706781689020740
+    second: factory2_tilemap_159
+  - first:
+      213: 4584526180888071311
+    second: factory2_tilemap_160
+  - first:
+      213: -1175268125014477932
+    second: factory2_tilemap_161
+  - first:
+      213: 650618077812908208
+    second: factory2_tilemap_162
+  - first:
+      213: 5975620730900225149
+    second: factory2_tilemap_163
+  - first:
+      213: -5087590675324968177
+    second: factory2_tilemap_164
+  - first:
+      213: 7497493325167371723
+    second: factory2_tilemap_165
+  - first:
+      213: -6609340948016153843
+    second: factory2_tilemap_166
+  - first:
+      213: 4793498559100478522
+    second: factory2_tilemap_167
+  - first:
+      213: -9047341234360518179
+    second: factory2_tilemap_168
+  - first:
+      213: -3714275078531880049
+    second: factory2_tilemap_169
+  - first:
+      213: 2739389667357899043
+    second: factory2_tilemap_170
+  - first:
+      213: 9088156764063262577
+    second: factory2_tilemap_171
+  - first:
+      213: 5822085591515870526
+    second: factory2_tilemap_172
+  - first:
+      213: 667718036720738305
+    second: factory2_tilemap_173
+  - first:
+      213: -4707510635295171056
+    second: factory2_tilemap_174
+  - first:
+      213: 6858968905432329575
+    second: factory2_tilemap_175
+  - first:
+      213: 6520043802721919355
+    second: factory2_tilemap_176
+  - first:
+      213: -6160683120812394585
+    second: factory2_tilemap_177
+  - first:
+      213: 608991856437462049
+    second: factory2_tilemap_178
+  - first:
+      213: 3394514980274454995
+    second: factory2_tilemap_179
+  - first:
+      213: -9213025990098571254
+    second: factory2_tilemap_180
+  - first:
+      213: -5218315412347492162
+    second: factory2_tilemap_181
+  - first:
+      213: 7199567881163736181
+    second: factory2_tilemap_182
+  - first:
+      213: -8093824936217929824
+    second: factory2_tilemap_183
+  - first:
+      213: -819336471868175872
+    second: factory2_tilemap_184
+  - first:
+      213: 4926520365658007059
+    second: factory2_tilemap_185
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -31,7 +1147,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -40,12 +1156,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -64,7 +1180,43 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -73,7 +1225,3913 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: factory2_tilemap_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77597f724a288b8b0800000000000000
+      internalID: -5136211733459266185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e26e667678bbc5d0800000000000000
+      internalID: -3041134304426040600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212e6bd6b9ee55080800000000000000
+      internalID: -9199184312506326510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1036aafb229620b40800000000000000
+      internalID: 5404998100763435777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b70e4caad1bbc50800000000000000
+      internalID: 6681967091418954517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a07b4b0c7556e110800000000000000
+      internalID: 1289812334542024865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8344198ad2b7ad20800000000000000
+      internalID: 3289794704489857934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5849b792be8341990800000000000000
+      internalID: -7416240103707929467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87208da8f32328f50800000000000000
+      internalID: 6882118429069279864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a22bf8f10144c80800000000000000
+      internalID: -8339522882242467234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a94586ee438d2b20800000000000000
+      internalID: 3111287292481063333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15a1b39dd1750040800000000000000
+      internalID: 4613218589790545179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6816e6f61da04f60800000000000000
+      internalID: 8016597650862643311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ff891a054560380800000000000000
+      internalID: -9005417699595452607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a28e9797ac076900800000000000000
+      internalID: 677524182885368484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285395ced459d9750800000000000000
+      internalID: 6313366414553593218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46170916655926720800000000000000
+      internalID: 2837994913433416036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc717d34301b9990800000000000000
+      internalID: -7378285747961234239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_18
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260336d2b85a07e90800000000000000
+      internalID: -7029937001144831902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5896fb1a5b8728a0800000000000000
+      internalID: -6329937532113479587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_20
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19342a4868a6ef150800000000000000
+      internalID: 5908276887140058001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6116c2f78853e3710800000000000000
+      internalID: 1674834971793842454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_22
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c539865cf77c7d620800000000000000
+      internalID: 2798925045020791644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4ee9f1a912130f50800000000000000
+      internalID: 6846335759834279503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_24
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0387ad289393b80800000000000000
+      internalID: -8414631194591219498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ae5119d3a617400800000000000000
+      internalID: 320153861179697747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_26
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7188c42e90fac2370800000000000000
+      internalID: 8299200670323214359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b6a4c009d9bdf70800000000000000
+      internalID: 9213130704723536744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca03daae47a9559f0800000000000000
+      internalID: -480307958300987220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de335433888cd1c0800000000000000
+      internalID: -4477553832413151528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_30
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df1512c3c2be8d90800000000000000
+      internalID: -7093535809217421357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a4a702b8798b6f0800000000000000
+      internalID: -668617920863384983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_32
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a49e340405fd0a0800000000000000
+      internalID: -6854671870887114194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33c059727a4bb6b0800000000000000
+      internalID: -5279544282639711429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3387eceb9765b4c30800000000000000
+      internalID: 4344661346421209139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62caa53e1f4a10340800000000000000
+      internalID: 4828321634326326310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_36
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb528f23f63ff3b70800000000000000
+      internalID: 8881084649119950270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e2555bdb331c2d0800000000000000
+      internalID: -3260267765355434368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_38
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b015f91db61e8dc70800000000000000
+      internalID: 8996188108867195147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d978068445f421d0800000000000000
+      internalID: -3376304145965745708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_40
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78524cb87b7009d40800000000000000
+      internalID: 5588975622472082823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c6b3da52c1707b0800000000000000
+      internalID: -5258203091786044351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_42
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84798bb51ef63e2b0800000000000000
+      internalID: -5556474501547911352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_43
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08db012495b93f9a0800000000000000
+      internalID: -6200441454296253056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a07b98846ac2110800000000000000
+      internalID: 1237546828098374170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ddaa1d39b394f330800000000000000
+      internalID: 3743779614055116242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_46
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741a374aa8445e520800000000000000
+      internalID: 2730664111325290823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c262b65597eed3430800000000000000
+      internalID: 3764427068443141676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_48
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fbeb6a02a9561d50800000000000000
+      internalID: 6707647247509351413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2da481f8bddccd50800000000000000
+      internalID: 6759020927171996971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0154d759755d530800000000000000
+      internalID: 3879102953612972221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_51
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ab0a7bd28e2d460800000000000000
+      internalID: 7265124431953967755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_52
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf3e786012126bb0800000000000000
+      internalID: -4944369579217502285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5f8ce6510075310800000000000000
+      internalID: 1393582701747434993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9f25a6326d20b30800000000000000
+      internalID: 4252196445787191781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34adccd93c2c09650800000000000000
+      internalID: 6237699629329996355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_56
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbcb1de6233b0cf0800000000000000
+      internalID: -285077909128098881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_57
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44169b8e460815c60800000000000000
+      internalID: 7805160800099328324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_58
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef57978b41c243e60800000000000000
+      internalID: 7941020510466962942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0a00c30e50e1810800000000000000
+      internalID: 1737832966849077494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_60
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bf2a4b2ae07bd70800000000000000
+      internalID: 9058725267457112982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bacbb150c114190800000000000000
+      internalID: -7980066256458044550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_62
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cac9d8a9895259620800000000000000
+      internalID: 2780169682329377964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56ff68eb55e55790800000000000000
+      internalID: -7541869818057591202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_64
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf183cd9dadecfbd0800000000000000
+      internalID: -2594937955340287492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0085dcf321287e90800000000000000
+      internalID: -7027830780062236660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_66
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d77d725a0fc869e0800000000000000
+      internalID: -1627823622053857327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e5020a9e74c8700800000000000000
+      internalID: 543888723744415276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_68
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c127c47b9bb0990800000000000000
+      internalID: -7418631764250059738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8748002e62b2d0000800000000000000
+      internalID: 3706620697674872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_70
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a24d0e4f31c2c00800000000000000
+      internalID: 877097969895352978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_71
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4bdd59b19a406690800000000000000
+      internalID: -7611001380515488950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_72
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f375ff7714cecb10800000000000000
+      internalID: 2003754489436533747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fbb288bf36b19f0800000000000000
+      internalID: -496693401921798280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_74
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5faaa9effeb1be40800000000000000
+      internalID: 5670523412182380383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_75
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a3482f73578c750800000000000000
+      internalID: 6325434559794264726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f07a1c014f7d29fa0800000000000000
+      internalID: -5795332327219288305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_77
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416526614ea2a9ca0800000000000000
+      internalID: -6009443593656052204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4424cc2b93f33200800000000000000
+      internalID: 158738259684631629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51fde0b452d91640800000000000000
+      internalID: 5051299718260191582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_80
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269c71da5dbeea090800000000000000
+      internalID: -8021214583335696030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_81
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938160df5d042dab0800000000000000
+      internalID: -4984850549728470983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_82
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da606c80ec321e00800000000000000
+      internalID: 1013939801237252820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_83
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d07a5630e503000800000000000000
+      internalID: 13614167565471075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_84
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6169912ecc8f5b1b0800000000000000
+      internalID: -5641329399361333738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_85
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09a7ea1ae1bb4840800000000000000
+      internalID: 5209453013015963915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_86
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8ab0c9ded164a90800000000000000
+      internalID: -7330138437136439109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a7012edab2b3420800000000000000
+      internalID: 2610728434813401640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_88
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edf22c3415e93240800000000000000
+      internalID: 4772097155246783972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e710da9bb86daede0800000000000000
+      internalID: -1302993246566416002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_90
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f88b3e3f72101970800000000000000
+      internalID: 8723492815930886390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b88bbf3983fcad0800000000000000
+      internalID: -2679861045027632299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_92
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fb7a261f133c020800000000000000
+      internalID: 2360785542484311869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_93
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c54ae4954b22710800000000000000
+      internalID: 1667093107744988294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_94
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828d64a7655c86200800000000000000
+      internalID: 173605560863086632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_95
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7336e149a697290800000000000000
+      internalID: -7892159687592560650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_96
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80b89a58e1444070800000000000000
+      internalID: 8089663296872427662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_97
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4834989bc80d6fd10800000000000000
+      internalID: 2159142374197511044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_98
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe450a35019815170800000000000000
+      internalID: 8165458302614918383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_99
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6ce79315e880660800000000000000
+      internalID: 7352282871190439597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_100
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1a0d9879d4b5960800000000000000
+      internalID: 7591746910110654975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e56951df171ed3a0800000000000000
+      internalID: -6638843375273810460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a7c43356213c8f0800000000000000
+      internalID: -521552905983198686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_103
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e8efd342f3cb9b0800000000000000
+      internalID: -5063102456179814840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_104
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23c96655c8bf73a0800000000000000
+      internalID: -6665405765787204820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91bdd64df99636320800000000000000
+      internalID: 2549997949206518553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d0a74fdffa89a30800000000000000
+      internalID: 4222318155923066239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e324d5e92421a610800000000000000
+      internalID: 1630624302452974568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_108
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e64e6a4146c5e60800000000000000
+      internalID: 7952341081891565099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e44635384ac86cb0800000000000000
+      internalID: -4870420585521986334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b5b9a6951a8d3b00800000000000000
+      internalID: 809955333323208119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19630eded895b6230800000000000000
+      internalID: 3633095990520592017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_112
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411f286e5497a16e0800000000000000
+      internalID: -1866045754464603884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb9ea64c3d851600800000000000000
+      internalID: 438411828761893862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_114
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdcda00dec48a080800000000000000
+      internalID: -9175999659965035088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153f5e2e976532ef0800000000000000
+      internalID: -134168482393230511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_116
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755fdeccec992cef0800000000000000
+      internalID: -89339929113529001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ee410af39915820800000000000000
+      internalID: 2905271733178396223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_118
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2b0931d1775d1e0800000000000000
+      internalID: -2173700278370389280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae59456732bb2f0800000000000000
+      internalID: -956131504753874362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_120
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b49ee889f1034ac0800000000000000
+      internalID: -3872249083352673104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f907a2203394c10800000000000000
+      internalID: 2038216390756835208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_122
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d7256c7f704aa50800000000000000
+      internalID: 6531354120359673205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_123
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb8584b51f65fa70800000000000000
+      internalID: 8860109980934966248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432d82c5ba5090d40800000000000000
+      internalID: 5550974249254572596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_125
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4543e15d5a0fe84f0800000000000000
+      internalID: -824457086726425516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a121931a1808ea50800000000000000
+      internalID: 6550494566100836769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_127
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc743f7b9ae3e1b0800000000000000
+      internalID: -5628397155708011338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af954ce5da1ab5c0800000000000000
+      internalID: -4199014196475224155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_129
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5424f57691f3371b0800000000000000
+      internalID: -5660110928333553083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41115d1441d89f80800000000000000
+      internalID: -8099493839346003637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_131
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7093c1b5adbf97240800000000000000
+      internalID: 4790136593935251719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998b87c280330d530800000000000000
+      internalID: 3877655389364861081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_133
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26104d34189145e60800000000000000
+      internalID: 7950007285195211106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_134
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b490c5940fd5db0c0800000000000000
+      internalID: -4558383961224771253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_135
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cc940a3169902c0800000000000000
+      internalID: -4464872544523400035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_136
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c6535cf17e82cd0800000000000000
+      internalID: -2582560262658364269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_137
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77afb01e06b2dbc0800000000000000
+      internalID: -3759742567374149766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69045f5b71bd7e1c0800000000000000
+      internalID: -4474366809885818730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_139
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787782531442da8d0800000000000000
+      internalID: -2833568728062855289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_140
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1f41f32dad83560800000000000000
+      internalID: 7293820193062842879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_141
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ec1a52248648a20800000000000000
+      internalID: 3063688279827271260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_142
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd5edc45c1f5b760800000000000000
+      internalID: 7473144986391698936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_143
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f03c14e33a59528e0800000000000000
+      internalID: -1718803154415271153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_144
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275196d9ccef05940800000000000000
+      internalID: 5283002517673284978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_145
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfb3599347a04d60800000000000000
+      internalID: 7872476057420677046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_146
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d03423ff709fce60800000000000000
+      internalID: 7984759543565660371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbe80806f8537a30800000000000000
+      internalID: 4211807890241547220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_148
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71019908d4b9c8270800000000000000
+      internalID: 8254142974235578391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_149
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909cd6680ea7ce010800000000000000
+      internalID: 1219484703857166601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_150
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647141aace9094b40800000000000000
+      internalID: 5424878138214848326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4ae19e2eff7acb0800000000000000
+      internalID: -4852628723429628712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_152
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05672c23ab1a87500800000000000000
+      internalID: 394242788482512464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_153
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8719abcebe8978e40800000000000000
+      internalID: 5658659595870703992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_154
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf4ba4f3415a2950800000000000000
+      internalID: 6425037170706960314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_155
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d74dc33d1ba57de0800000000000000
+      internalID: -1335973572533991468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_156
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11c48332264af540800000000000000
+      internalID: 5042419845501862170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_157
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f74931cd878c4c0800000000000000
+      internalID: -4267027760316907709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_158
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f6d36ae19b0c2030800000000000000
+      internalID: 3471162134126384880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_159
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4410214bb7556dc40800000000000000
+      internalID: 5536706781689020740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_160
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ccf4b85428f9f30800000000000000
+      internalID: 4584526180888071311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_161
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4933cacfddb90bfe0800000000000000
+      internalID: -1175268125014477932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_162
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b06c74d1b5770900800000000000000
+      internalID: 650618077812908208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_163
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7c94c1056bade250800000000000000
+      internalID: 5975620730900225149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_164
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f036aaa6c3f3569b0800000000000000
+      internalID: -5087590675324968177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_165
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5a670b4727c0860800000000000000
+      internalID: 7497493325167371723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_166
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bbd02fc67e644a0800000000000000
+      internalID: -6609340948016153843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_167
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34e78eda8de58240800000000000000
+      internalID: 4793498559100478522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_168
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9723c0513617280800000000000000
+      internalID: -9047341234360518179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_169
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b6502ce7e347cc0800000000000000
+      internalID: -3714275078531880049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_170
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3293e387364440620800000000000000
+      internalID: 2739389667357899043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_171
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177ed010d6e9f1e70800000000000000
+      internalID: 9088156764063262577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_172
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35393eaff33cc050800000000000000
+      internalID: 5822085591515870526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_173
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1006cd44406344900800000000000000
+      internalID: 667718036720738305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_174
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e9bd6c4009baeb0800000000000000
+      internalID: -4707510635295171056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_175
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d6ebd01e3ff2f50800000000000000
+      internalID: 6858968905432329575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b712a3d3b49db7a50800000000000000
+      internalID: 6520043802721919355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_177
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a77b32a75bd08aa0800000000000000
+      internalID: -6160683120812394585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_178
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1248f0aedd2937800800000000000000
+      internalID: 608991856437462049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_179
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d14000c36dbb1f20800000000000000
+      internalID: 3394514980274454995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00bbb9bca1c42080800000000000000
+      internalID: -9213025990098571254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_181
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb8e411c7c1d497b0800000000000000
+      internalID: -5218315412347492162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_182
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574831dc7d00ae360800000000000000
+      internalID: 7199567881163736181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_183
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7188a7a15fcaf80800000000000000
+      internalID: -8093824936217929824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_184
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a86c2e1d121a4f0800000000000000
+      internalID: -819336471868175872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: factory2_tilemap_185
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 316e5c5bb248e5440800000000000000
+      internalID: 4926520365658007059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
