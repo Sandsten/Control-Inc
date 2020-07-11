@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float speed;
+
+    public Animator animator;
+
     [Header("Control Mana")]
     public float maxMana = 20;
     public float manaConsumptionRate = 10f;
@@ -33,6 +36,19 @@ public class Player : MonoBehaviour
         // Get movement inputs
         moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
+        // Animate player if moving
+        if (moveDirection.x > 0 && manaRight > 0f) {
+            animator.SetInteger("RunDirection", 2); // right
+        } else if (moveDirection.x < 0 && manaLeft > 0f) {
+            animator.SetInteger("RunDirection", 4); // left
+        } else if (moveDirection.y > 0 && manaForward > 0f) {
+            animator.SetInteger("RunDirection", 1); // up
+        } else if (moveDirection.y < 0 && manaBackwards > 0f) {
+            animator.SetInteger("RunDirection", 3); // down
+        } else {
+            animator.SetInteger("RunDirection", 0); // idle
+        }
+
         // Consume mana based on move direction
         if (moveDirection.y > 0f)
             manaForward -= manaConsumptionRate * Time.deltaTime;
@@ -54,6 +70,8 @@ public class Player : MonoBehaviour
         if(manaBackwards <= 0f && moveDirection.y < 0f) moveDirection.y = 0f;
         if(manaRight <= 0f && moveDirection.x > 0f) moveDirection.x = 0f;
         if(manaLeft <= 0f && moveDirection.x < 0f) moveDirection.x = 0f;
+
+        //PlayerUI.instance.DisplayMana(manaForward, manaBackwards, manaRight, manaLeft);
     }
 
     // Restores the given amount of mana to the provided mana type
