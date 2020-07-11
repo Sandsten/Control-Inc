@@ -53,7 +53,32 @@ public class Player : MonoBehaviour
         if(manaBackwards <= 0f && moveDirection.y < 0f) moveDirection.y = 0f;
         if(manaRight <= 0f && moveDirection.x > 0f) moveDirection.x = 0f;
         if(manaLeft <= 0f && moveDirection.x < 0f) moveDirection.x = 0f;
+    }
 
+    // Restores the given amount of mana to the provided mana type
+    public void RestoreMana(ManaTypes type, float amount) {
+        if(type == ManaTypes.MANA_FORWARD) manaForward += amount;
+        if(type == ManaTypes.MANA_BACKWARDS) manaBackwards += amount;
+        if(type == ManaTypes.MANA_RIGHT) manaRight += amount;
+        if(type == ManaTypes.MANA_LEFT) manaLeft += amount;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Potion") {
+            List<ManaTypes> potionType = other.gameObject.GetComponent<PotionStats>().potionType;
+            float restoreAmmount = other.gameObject.GetComponent<PotionStats>().restoreAmount;
+            
+            foreach (ManaTypes manaType in potionType)
+            {
+                RestoreMana(manaType, restoreAmmount);
+                Debug.Log("Mana restored!");
+            }
+            other.gameObject.SetActive(false);
+        }
+
+        if(other.tag == "Elevator"){
+            SceneManager.LoadScene("Level2");
+        }
     }
 
     void FixedUpdate()
@@ -61,16 +86,5 @@ public class Player : MonoBehaviour
         // Move player
         rb.velocity = new Vector2(moveDirection.x * speed, moveDirection.y * speed);
     }
-
-    void OnTriggerEnter2D(Collider2D other){
-        Debug.Log("Wow!");
-        if(other.tag == "Elevator"){
-            Debug.Log("Yay!");
-
-            SceneManager.LoadScene("Level2");
-        }
-    }
-
-
 
 }
