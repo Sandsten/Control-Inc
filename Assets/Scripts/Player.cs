@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         rb = GetComponent<Rigidbody2D>();
 
         // Start with max mana
@@ -77,7 +78,8 @@ public class Player : MonoBehaviour
         }
 
         if(other.tag == "Elevator"){
-            SceneManager.LoadScene("Level2");
+            //SceneManager.LoadScene("Level2");
+            LevelManager.instance.ChangeLevel();
         }
     }
 
