@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -59,6 +60,15 @@ public class Player : MonoBehaviour
     {
         // Move player
         rb.velocity = new Vector2(moveDirection.x * speed, moveDirection.y * speed);
+    }
+
+    void OnTriggerEnter2D(Collider2D other){
+        Debug.Log("Wow!");
+        if(other.tag == "Elevator"){
+            Debug.Log("Yay!");
+
+            SceneManager.LoadScene("Level2");
+        }
     }
 
 
