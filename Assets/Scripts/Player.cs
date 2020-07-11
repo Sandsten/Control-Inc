@@ -28,6 +28,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Get movement inputs
         moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
         // Consume mana based on move direction
