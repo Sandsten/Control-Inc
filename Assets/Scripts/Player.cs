@@ -62,12 +62,24 @@ public class Player : MonoBehaviour
         if(type == ManaTypes.MANA_LEFT) manaLeft += amount;
     }
 
+    private void OnTriggerEnter2D(Collider2D other) {
+        if(other.tag == "Potion") {
+            List<ManaTypes> potionType = other.gameObject.GetComponent<PotionStats>().potionType;
+            float restoreAmmount = other.gameObject.GetComponent<PotionStats>().restoreAmount;
+            
+            foreach (ManaTypes manaType in potionType)
+            {
+                RestoreMana(manaType, restoreAmmount);
+                Debug.Log("Mana restored!");
+            }
+            other.gameObject.SetActive(false);
+        }
+    }
+
     void FixedUpdate()
     {
         // Move player
         rb.velocity = new Vector2(moveDirection.x * speed, moveDirection.y * speed);
     }
-
-
 
 }
