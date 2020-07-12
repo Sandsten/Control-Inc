@@ -55,14 +55,14 @@ public class LevelManager : MonoBehaviour
             // playerUI.SetActive(true);
             // player.SetActive(true);
         }
-        
+
         // Move the player to the spawn point when a new scene loads
         player.transform.position = spawnPoint;
     }
 
     // Start is called before the first frame update
     void Start()
-    {   
+    {
         // Move the player to the spawn point on level 1
         player.transform.position = spawnPoint;
     }
@@ -70,7 +70,13 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        // Load the game over scene if the player has been spotted
+        if (playerHasBeenSpotted && !loadingScene)
+        {   
+            Debug.Log("LOADING GAME OVER SCENE!");
+            SceneManager.LoadScene("GameOver");
+            loadingScene = true;
+        }
     }
 
     public void ChangeLevel()

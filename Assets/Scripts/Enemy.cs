@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     private Vector3[] patrolPoints;
     private int currentPatrolPointIndex = 0;
     private bool movingBackwards = false;
-    
+
     public Animator animator;
 
     public float viewRadius;
@@ -19,7 +19,7 @@ public class Enemy : MonoBehaviour
     public float viewAngle;
 
     public GameObject player;
-    public GameManager gameManager;
+    public LevelManager levelManager;
 
     [HideInInspector]
     public Rigidbody2D rb;
@@ -30,10 +30,13 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        player = GameObject.FindGameObjectWithTag("Player");
+        levelManager = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>();
 
         patrolPoints = new Vector3[patrolPath.childCount];
         int i = 0;
-        foreach (Transform patrolPoint in patrolPath) {
+        foreach (Transform patrolPoint in patrolPath)
+        {
             patrolPoints[i] = patrolPoint.position;//new Vector3(patrolPoint.position.x, patrolPoint.position.y, patrolPoint.position.z);
             i++;
         }
@@ -45,52 +48,78 @@ public class Enemy : MonoBehaviour
         moveDirection = patrolPoints[currentPatrolPointIndex] - transform.position;
         //Debug.Log(moveDirection);
 
-        if(IsPlayerSpotted()){
-            gameManager.playerHasBeenSpotted = true;
+        if (IsPlayerSpotted())
+        {
+            levelManager.playerHasBeenSpotted = true;
         }
     }
 
-    void FixedUpdate() 
+    void FixedUpdate()
     {
-        
+
         rb.velocity = Vector3.Normalize(moveDirection) * speed;
         // Debug.Log(rb.velocity);
 
         // Animate enemy
-        if (moveDirection.x > 0 && Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y)) {
+        if (moveDirection.x > 0 && Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y))
+        {
             animator.SetInteger("RunDirection", 2); // right
-        } else if (moveDirection.x < 0 && Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y)) {
+        }
+        else if (moveDirection.x < 0 && Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y))
+        {
             animator.SetInteger("RunDirection", 4); // left
-        } else if (moveDirection.y > 0 && Mathf.Abs(moveDirection.y) > Mathf.Abs(moveDirection.x)) {
+        }
+        else if (moveDirection.y > 0 && Mathf.Abs(moveDirection.y) > Mathf.Abs(moveDirection.x))
+        {
             animator.SetInteger("RunDirection", 1); // up
-        } else if (moveDirection.y < 0 && Mathf.Abs(moveDirection.y) > Mathf.Abs(moveDirection.x)) {
+        }
+        else if (moveDirection.y < 0 && Mathf.Abs(moveDirection.y) > Mathf.Abs(moveDirection.x))
+        {
             animator.SetInteger("RunDirection", 3); // down
-        } else {
+        }
+        else
+        {
             animator.SetInteger("RunDirection", 0); // idle
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other) 
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "PatrolPoint") {
-            if (loop) {
-                if (currentPatrolPointIndex + 1 < patrolPoints.Length) {
+        if (other.tag == "PatrolPoint")
+        {
+            if (loop)
+            {
+                if (currentPatrolPointIndex + 1 < patrolPoints.Length)
+                {
                     currentPatrolPointIndex++;
-                } else { // reached end
+                }
+                else
+                { // reached end
                     currentPatrolPointIndex = 0;
                 }
-            } else { // not looping
-                if (movingBackwards) {
-                    if (currentPatrolPointIndex - 1 >= 0) {
+            }
+            else
+            { // not looping
+                if (movingBackwards)
+                {
+                    if (currentPatrolPointIndex - 1 >= 0)
+                    {
                         currentPatrolPointIndex--;
-                    } else { //reached beginning
+                    }
+                    else
+                    { //reached beginning
                         movingBackwards = false;
                         currentPatrolPointIndex++;
                     }
-                } else { // moving forwards
-                    if (currentPatrolPointIndex + 1 < patrolPoints.Length) {
+                }
+                else
+                { // moving forwards
+                    if (currentPatrolPointIndex + 1 < patrolPoints.Length)
+                    {
                         currentPatrolPointIndex++;
-                    } else { // reached end
+                    }
+                    else
+                    { // reached end
                         movingBackwards = true;
                         currentPatrolPointIndex--;
                     }
@@ -107,19 +136,23 @@ public class Enemy : MonoBehaviour
         float playerDistance = (player.transform.position - transform.position).magnitude;
         RaycastHit2D hit = Physics2D.Raycast(transform.position, playerDirection);
         // Is the player hit?
-        if(hit.collider.tag == "Player") {
+        if (hit.collider.tag == "Player")
+        {
             // Is the angle to the player within the view angle?
             float angle = AngleToPlayer();
             // Is the player within the enemy's view radius?
-            if(angle < viewAngle/2 && playerDistance <= viewRadius){
+            if (angle < viewAngle / 2 && playerDistance <= viewRadius)
+            {
                 // Debug.Log("Player spotted!!");
+                Debug.Log("PLAYER FOUND");
                 return true;
             }
         }
         return false;
     }
 
-    public float AngleToPlayer(){
+    public float AngleToPlayer()
+    {
         float angle = 0;
 
         Vector3 dirToPlayer = player.transform.position - gameObject.transform.position;

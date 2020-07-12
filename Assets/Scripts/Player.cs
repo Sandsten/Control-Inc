@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
+    public static Player instance;
     public float speed;
 
     public Animator animator;
@@ -20,10 +21,22 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 moveDirection;
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+        if (instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            instance = this;
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(gameObject);
         rb = GetComponent<Rigidbody2D>();
 
         // Start with max mana
@@ -37,15 +50,24 @@ public class Player : MonoBehaviour
         moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
         // Animate player if moving
-        if (moveDirection.x > 0 && manaRight > 0f) {
+        if (moveDirection.x > 0 && manaRight > 0f)
+        {
             animator.SetInteger("RunDirection", 2); // right
-        } else if (moveDirection.x < 0 && manaLeft > 0f) {
+        }
+        else if (moveDirection.x < 0 && manaLeft > 0f)
+        {
             animator.SetInteger("RunDirection", 4); // left
-        } else if (moveDirection.y > 0 && manaForward > 0f) {
+        }
+        else if (moveDirection.y > 0 && manaForward > 0f)
+        {
             animator.SetInteger("RunDirection", 1); // up
-        } else if (moveDirection.y < 0 && manaBackwards > 0f) {
+        }
+        else if (moveDirection.y < 0 && manaBackwards > 0f)
+        {
             animator.SetInteger("RunDirection", 3); // down
-        } else {
+        }
+        else
+        {
             animator.SetInteger("RunDirection", 0); // idle
         }
 
@@ -66,27 +88,30 @@ public class Player : MonoBehaviour
         manaLeft = Mathf.Clamp(manaLeft, 0f, maxMana);
 
         // Prevent movement in the direction where mana == 0
-        if(manaForward <= 0f && moveDirection.y > 0f) moveDirection.y = 0f;
-        if(manaBackwards <= 0f && moveDirection.y < 0f) moveDirection.y = 0f;
-        if(manaRight <= 0f && moveDirection.x > 0f) moveDirection.x = 0f;
-        if(manaLeft <= 0f && moveDirection.x < 0f) moveDirection.x = 0f;
+        if (manaForward <= 0f && moveDirection.y > 0f) moveDirection.y = 0f;
+        if (manaBackwards <= 0f && moveDirection.y < 0f) moveDirection.y = 0f;
+        if (manaRight <= 0f && moveDirection.x > 0f) moveDirection.x = 0f;
+        if (manaLeft <= 0f && moveDirection.x < 0f) moveDirection.x = 0f;
 
         //PlayerUI.instance.DisplayMana(manaForward, manaBackwards, manaRight, manaLeft);
     }
 
     // Restores the given amount of mana to the provided mana type
-    public void RestoreMana(ManaTypes type, float amount) {
-        if(type == ManaTypes.MANA_FORWARD) manaForward += amount;
-        if(type == ManaTypes.MANA_BACKWARDS) manaBackwards += amount;
-        if(type == ManaTypes.MANA_RIGHT) manaRight += amount;
-        if(type == ManaTypes.MANA_LEFT) manaLeft += amount;
+    public void RestoreMana(ManaTypes type, float amount)
+    {
+        if (type == ManaTypes.MANA_FORWARD) manaForward += amount;
+        if (type == ManaTypes.MANA_BACKWARDS) manaBackwards += amount;
+        if (type == ManaTypes.MANA_RIGHT) manaRight += amount;
+        if (type == ManaTypes.MANA_LEFT) manaLeft += amount;
     }
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.tag == "Potion") {
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Potion")
+        {
             List<ManaTypes> potionType = other.gameObject.GetComponent<PotionStats>().potionType;
             float restoreAmmount = other.gameObject.GetComponent<PotionStats>().restoreAmount;
-            
+
             foreach (ManaTypes manaType in potionType)
             {
                 RestoreMana(manaType, restoreAmmount);
@@ -95,7 +120,8 @@ public class Player : MonoBehaviour
             other.gameObject.SetActive(false);
         }
 
-        if(other.tag == "Elevator"){
+        if (other.tag == "Elevator")
+        {
             //SceneManager.LoadScene("Level2");
             LevelManager.instance.ChangeLevel();
         }
