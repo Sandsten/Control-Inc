@@ -42,6 +42,7 @@ public class LevelManager : MonoBehaviour
         if (scene.name == "GameOver")
         {
             playerHasBeenSpotted = false;
+            player.GetComponent<Player>().RestoreAllMana();
         }
 
 

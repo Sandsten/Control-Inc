@@ -46,6 +46,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (SceneManager.GetActiveScene().name == "GameOver" || SceneManager.GetActiveScene().name == "StartMenue") {
+            return;
+        } 
+        
         // Get movement inputs
         moveDirection = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
 
@@ -94,6 +98,19 @@ public class Player : MonoBehaviour
         if (manaLeft <= 0f && moveDirection.x < 0f) moveDirection.x = 0f;
 
         //PlayerUI.instance.DisplayMana(manaForward, manaBackwards, manaRight, manaLeft);
+
+        // Check if completely out of mana
+        if (manaForward <= 0f && manaBackwards <= 0f && manaRight <= 0f && manaLeft <= 0f) {
+            LevelManager.instance.playerHasBeenSpotted = true;
+        }
+    }
+
+    public void RestoreAllMana() 
+    {
+        RestoreMana(ManaTypes.MANA_FORWARD, 200f);
+        RestoreMana(ManaTypes.MANA_BACKWARDS, 200f);
+        RestoreMana(ManaTypes.MANA_RIGHT, 200f);
+        RestoreMana(ManaTypes.MANA_LEFT, 200f);
     }
 
     // Restores the given amount of mana to the provided mana type
