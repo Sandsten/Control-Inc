@@ -451,7 +451,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: PRESS SPACE TO RESTART
+  m_Text: PRESS SPACE TO RETURN TO MENU
 --- !u!222 &1373203502
 CanvasRenderer:
   m_ObjectHideFlags: 0
