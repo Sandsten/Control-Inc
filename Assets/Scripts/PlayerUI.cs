@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using UnityEngine.SceneManagement;
 
 public class PlayerUI : MonoBehaviour
 {
@@ -24,12 +25,15 @@ public class PlayerUI : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
-        if (instance != null && instance != this) {
-            Destroy(this.gameObject);
-        } else {
-            instance = this;
+        if(SceneManager.GetActiveScene().name != "End"){
+            DontDestroyOnLoad(gameObject);
+            if (instance != null && instance != this) {
+                Destroy(this.gameObject);
+            } else {
+                instance = this;
+            }
         }
+        
 
         // Copied it to game components in the scene directly instead. 
         // I thought it was easier to make fine adjustments that way.

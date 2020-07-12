@@ -44,6 +44,7 @@ public class LevelManager : MonoBehaviour
             playerHasBeenSpotted = false;
         }
 
+
         // Disable player UI & player when on the main menu
         if (scene.name == "StartMenue")
         {
@@ -81,6 +82,11 @@ public class LevelManager : MonoBehaviour
 
     public void ChangeLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if(SceneManager.GetActiveScene().name == "Level1"){
+            SceneManager.LoadScene(6);
+        }else{
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        
     }
 }
