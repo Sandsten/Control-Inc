@@ -31,48 +31,51 @@ public class PlayerUI : MonoBehaviour
             instance = this;
         }
 
-        Font arial;
-        arial = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");  
+        // Copied it to game components in the scene directly instead. 
+        // I thought it was easier to make fine adjustments that way.
+
+        // Font arial;
+        // arial = (Font)Resources.GetBuiltinResource(typeof(Font), "Arial.ttf");  
 
         // Create Canvas GameObject.
-        GameObject canvasGO = new GameObject();
-        DontDestroyOnLoad(canvasGO);
-        canvasGO.name = "CanvasGO";
-        canvasGO.AddComponent<Canvas>();
-        canvasGO.AddComponent<CanvasScaler>();
-        canvasGO.AddComponent<GraphicRaycaster>();
+        // GameObject canvasGO = new GameObject();
+        // DontDestroyOnLoad(canvasGO);
+        // canvasGO.name = "CanvasGO";
+        // canvasGO.AddComponent<Canvas>();
+        // canvasGO.AddComponent<CanvasScaler>();
+        // canvasGO.AddComponent<GraphicRaycaster>();
 
         // Get canvas from the GameObject.
-        Canvas canvas;
-        canvas = canvasGO.GetComponent<Canvas>();
-        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        // Canvas canvas;
+        // canvas = canvasGO.GetComponent<Canvas>();
+        // canvas.renderMode = RenderMode.ScreenSpaceOverlay;
 
         // Create the Text GameObject.
-        GameObject textGO = new GameObject();
-        DontDestroyOnLoad(textGO);
-        textGO.transform.parent = canvasGO.transform;
-        textGO.AddComponent<Text>();
+        // GameObject textGO = new GameObject();
+        // DontDestroyOnLoad(textGO);
+        // textGO.transform.parent = canvasGO.transform;
+        // textGO.AddComponent<Text>();
 
         // Set Text component properties.
-        text = textGO.GetComponent<Text>();
-        text.font = arial;
-        text.text = "hello";
-        text.fontSize =  20;
+        // text = textGO.GetComponent<Text>();
+        // text.font = arial;
+        // text.text = "hello";
+        // text.fontSize =  20;
 
         // Provide Text position and size using RectTransform.
-        RectTransform rectTransform;
-        rectTransform = text.GetComponent<RectTransform>();
-        rectTransform.localPosition = new Vector3(-150, 90, 0);
-        rectTransform.sizeDelta = new Vector2(600, 200);
+        // RectTransform rectTransform;
+        // rectTransform = text.GetComponent<RectTransform>();
+        // rectTransform.localPosition = new Vector3(-150, 90, 0);
+        // rectTransform.sizeDelta = new Vector2(600, 200);
 
         // int numberOfBars = manaBars.transform.childCount;
-        DontDestroyOnLoad(manaBars);
+        // DontDestroyOnLoad(manaBars);
         // for(int i = 0; i < numberOfBars; i++){
         //     GameObject o = manaBars.transform.GetChild(i).gameObject;
         //     o.transform.parent = canvas.transform;
         //     DontDestroyOnLoad(o);
         // }
-        defaultManaBarColor = manaLeftBar.color;
+        // defaultManaBarColor = manaLeftBar.color;
 
     }
 
@@ -86,11 +89,10 @@ public class PlayerUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        text.text = "Mana forward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaForward).ToString() + 
-        " Mana backward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaBackwards).ToString() +
-        " Mana right: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaRight).ToString() +
-        " Mana left: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaLeft).ToString();
+        // text.text = "Mana forward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaForward).ToString() + 
+        // " Mana backward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaBackwards).ToString() +
+        // " Mana right: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaRight).ToString() +
+        // " Mana left: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaLeft).ToString();
 
         UpdateManaBars();
     }
@@ -119,6 +121,7 @@ public class PlayerUI : MonoBehaviour
     float GetManaBarWidth(float remainingMana) 
     {
         float percentMana = remainingMana/player.maxMana;
+        // Lerp between the min and max width of the mana bar
         return Mathf.Lerp(10, 230, percentMana);
     }
 
