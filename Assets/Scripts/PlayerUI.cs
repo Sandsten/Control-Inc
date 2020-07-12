@@ -43,7 +43,7 @@ public class PlayerUI : MonoBehaviour
         // Set Text component properties.
         text = textGO.GetComponent<Text>();
         text.font = arial;
-        text.text = "hello";
+        text.text = "";
         text.fontSize =  20;
 
         // Provide Text position and size using RectTransform.
@@ -65,13 +65,9 @@ public class PlayerUI : MonoBehaviour
     {
         
         text.text = "Mana forward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaForward).ToString() + 
-        " Mana backward: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaBackwards).ToString() +
-        " Mana right: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaRight).ToString() +
-        " Mana left: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaLeft).ToString();
+        " Mana backwards: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaBackwards).ToString() +
+        "\nMana left: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaLeft).ToString() +
+        " Mana right: " + Math.Round(GameObject.Find("Player").GetComponent<Player>().manaRight).ToString();
     }
 
-    /* public void DisplayMana(float mf, float mb, float mr, float ml)
-    {
-        
-    } */
 }
