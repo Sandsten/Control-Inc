@@ -124,6 +124,7 @@ MonoBehaviour:
   viewRadius: 2.45
   viewAngle: 92
   player: {fileID: 0}
+  gameManager: {fileID: 0}
   rb: {fileID: 0}
   moveDirection: {x: 0, y: 0}
 --- !u!61 &5138439361307167749

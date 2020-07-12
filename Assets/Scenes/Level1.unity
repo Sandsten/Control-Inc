@@ -372,7 +372,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 905632939}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1141034209}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99ee9f7501109394bb893d39e98cee2e, type: 3}
@@ -454,6 +454,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1796482309308855251, guid: 45036893b34c6484f9227a429e21de2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328726268478060217, guid: 45036893b34c6484f9227a429e21de2a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -286.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328726268478060217, guid: 45036893b34c6484f9227a429e21de2a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 197.26
+      objectReference: {fileID: 0}
     - target: {fileID: 7325842666761352610, guid: 45036893b34c6484f9227a429e21de2a,
         type: 3}
       propertyPath: player

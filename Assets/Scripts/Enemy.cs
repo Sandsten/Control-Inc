@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour
     public float viewAngle;
 
     public GameObject player;
+    public GameManager gameManager;
 
     [HideInInspector]
     public Rigidbody2D rb;
@@ -44,7 +45,9 @@ public class Enemy : MonoBehaviour
         moveDirection = patrolPoints[currentPatrolPointIndex] - transform.position;
         //Debug.Log(moveDirection);
 
-        IsPlayerSpotted();
+        if(IsPlayerSpotted()){
+            gameManager.playerHasBeenSpotted = true;
+        }
     }
 
     void FixedUpdate() 
