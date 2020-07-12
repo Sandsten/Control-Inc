@@ -50,9 +50,11 @@ public class LevelManager : MonoBehaviour
         {
             // playerUI.SetActive(false);
             // player.SetActive(false);
+            PlayerUI.instance.gameObject.SetActive(false);
         }
         else
         {
+            PlayerUI.instance.gameObject.SetActive(true);
             // playerUI.SetActive(true);
             // player.SetActive(true);
         }
