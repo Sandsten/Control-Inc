@@ -9,6 +9,7 @@ TagManager:
   - Elevator
   - Potion
   - PatrolPoint
+  - LevelManager
   layers:
   - Default
   - TransparentFX
