@@ -33,16 +33,15 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        moveDirection = (patrolPoints[currentPatrolPointIndex] - transform.position).normalized;
-        Debug.Log(moveDirection);
+        moveDirection = patrolPoints[currentPatrolPointIndex] - transform.position;
+        //Debug.Log(moveDirection);
     }
 
     void FixedUpdate() 
     {
         
-        rb.velocity = moveDirection * speed;
-
-        //Debug.Log(rb.velocity);
+        rb.velocity = Vector3.Normalize(moveDirection) * speed;
+        Debug.Log(rb.velocity);
 
         // Animate enemy
         if (moveDirection.x > 0) {

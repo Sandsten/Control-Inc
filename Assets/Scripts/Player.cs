@@ -70,6 +70,8 @@ public class Player : MonoBehaviour
         if(manaBackwards <= 0f && moveDirection.y < 0f) moveDirection.y = 0f;
         if(manaRight <= 0f && moveDirection.x > 0f) moveDirection.x = 0f;
         if(manaLeft <= 0f && moveDirection.x < 0f) moveDirection.x = 0f;
+
+        //PlayerUI.instance.DisplayMana(manaForward, manaBackwards, manaRight, manaLeft);
     }
 
     // Restores the given amount of mana to the provided mana type
