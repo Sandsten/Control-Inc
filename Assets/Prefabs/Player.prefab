@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6490225000406354221}
   - component: {fileID: 6490225000406354222}
   - component: {fileID: 6490225000406354210}
-  - component: {fileID: 1742739274}
+  - component: {fileID: 1141034215}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -136,14 +136,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  animator: {fileID: 1742739274}
-  maxMana: 20
+  animator: {fileID: 1141034215}
+  maxMana: 40
   manaConsumptionRate: 10
   manaForward: 0
   manaBackwards: 0
   manaRight: 0
   manaLeft: 0
---- !u!95 &1742739274
+--- !u!95 &1141034215
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
