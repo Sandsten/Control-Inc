@@ -14,8 +14,16 @@ public class Enemy : MonoBehaviour
     
     public Animator animator;
 
-    private Rigidbody2D rb;
-    private Vector2 moveDirection;
+    public float viewRadius;
+    [Range(0, 360)]
+    public float viewAngle;
+
+    public GameObject player;
+
+    [HideInInspector]
+    public Rigidbody2D rb;
+    [HideInInspector]
+    public Vector2 moveDirection;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +33,7 @@ public class Enemy : MonoBehaviour
         patrolPoints = new Vector3[patrolPath.childCount];
         int i = 0;
         foreach (Transform patrolPoint in patrolPath) {
-            patrolPoints[i] = new Vector3(patrolPoint.position.x, patrolPoint.position.y, patrolPoint.position.z);
+            patrolPoints[i] = patrolPoint.position;//new Vector3(patrolPoint.position.x, patrolPoint.position.y, patrolPoint.position.z);
             i++;
         }
     }
@@ -35,13 +43,15 @@ public class Enemy : MonoBehaviour
     {
         moveDirection = patrolPoints[currentPatrolPointIndex] - transform.position;
         //Debug.Log(moveDirection);
+
+        IsPlayerSpotted();
     }
 
     void FixedUpdate() 
     {
         
         rb.velocity = Vector3.Normalize(moveDirection) * speed;
-        Debug.Log(rb.velocity);
+        // Debug.Log(rb.velocity);
 
         // Animate enemy
         if (moveDirection.x > 0) {
@@ -84,5 +94,34 @@ public class Enemy : MonoBehaviour
                 }
             }
         }
+    }
+
+    public bool IsPlayerSpotted()
+    {
+        // Raycast in player direction 
+        // Go to Edit > Project Settings > uncheck "Queries start in colliders" to prevent enemy from hitting themselves
+        Vector3 playerDirection = (player.transform.position - transform.position).normalized;
+        float playerDistance = (player.transform.position - transform.position).magnitude;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, playerDirection);
+        // Is the player hit?
+        if(hit.collider.tag == "Player") {
+            // Is the angle to the player within the view angle?
+            float angle = AngleToPlayer();
+            // Is the player within the enemy's view radius?
+            if(angle < viewAngle/2 && playerDistance <= viewRadius){
+                // Debug.Log("Player spotted!!");
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public float AngleToPlayer(){
+        float angle = 0;
+
+        Vector3 dirToPlayer = player.transform.position - gameObject.transform.position;
+        angle = Vector3.Angle(moveDirection, dirToPlayer.normalized);
+
+        return angle;
     }
 }
