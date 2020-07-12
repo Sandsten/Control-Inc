@@ -52,11 +52,11 @@ public class LevelManager : MonoBehaviour
             // playerUI.SetActive(false);
             // player.SetActive(false);
             PlayerUI.instance.gameObject.SetActive(false);
-            Player.instance.gameObject.SetActive(false);
+            // Player.instance.gameObject.SetActive(false);
         }
         else if (scene.name == "End"){
             PlayerUI.instance.gameObject.SetActive(false);
-            Player.instance.gameObject.SetActive(false);
+            // Player.instance.gameObject.SetActive(false);
         }
         else
         {
@@ -91,7 +91,7 @@ public class LevelManager : MonoBehaviour
 
     public void ChangeLevel()
     {
-        if(SceneManager.GetActiveScene().name == "Level1"){
+        if(SceneManager.GetActiveScene().name == "Level3"){
             SceneManager.LoadScene(6);
         }else{
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
