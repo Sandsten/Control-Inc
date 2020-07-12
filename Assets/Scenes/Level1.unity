@@ -214,12 +214,12 @@ PrefabInstance:
     - target: {fileID: 6490225000406354211, guid: 2e3eec2c70e19274a9437173feb58f72,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.6664686
+      value: -3.83
       objectReference: {fileID: 0}
     - target: {fileID: 6490225000406354211, guid: 2e3eec2c70e19274a9437173feb58f72,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.9332254
+      value: -2.56
       objectReference: {fileID: 0}
     - target: {fileID: 6490225000406354211, guid: 2e3eec2c70e19274a9437173feb58f72,
         type: 3}
@@ -273,6 +273,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3eec2c70e19274a9437173feb58f72, type: 3}
+--- !u!1 &905632940 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6490225000406354223, guid: 2e3eec2c70e19274a9437173feb58f72,
+    type: 3}
+  m_PrefabInstance: {fileID: 905632939}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1191413647
 GameObject:
   m_ObjectHideFlags: 0
@@ -303,6 +309,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aced99d5969593a469e24787d5163d78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerHasBeenSpotted: 0
+  player: {fileID: 905632940}
 --- !u!4 &1191413649
 Transform:
   m_ObjectHideFlags: 0
@@ -419,7 +427,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 905632939}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 905632940}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99ee9f7501109394bb893d39e98cee2e, type: 3}
@@ -2773,6 +2781,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1796482309308855251, guid: 45036893b34c6484f9227a429e21de2a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7325842666761352610, guid: 45036893b34c6484f9227a429e21de2a,
         type: 3}
       propertyPath: player
