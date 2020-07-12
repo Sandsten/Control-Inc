@@ -54,13 +54,13 @@ public class Enemy : MonoBehaviour
         // Debug.Log(rb.velocity);
 
         // Animate enemy
-        if (moveDirection.x > 0) {
+        if (moveDirection.x > 0 && Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y)) {
             animator.SetInteger("RunDirection", 2); // right
-        } else if (moveDirection.x < 0) {
+        } else if (moveDirection.x < 0 && Mathf.Abs(moveDirection.x) > Mathf.Abs(moveDirection.y)) {
             animator.SetInteger("RunDirection", 4); // left
-        } else if (moveDirection.y > 0) {
+        } else if (moveDirection.y > 0 && Mathf.Abs(moveDirection.y) > Mathf.Abs(moveDirection.x)) {
             animator.SetInteger("RunDirection", 1); // up
-        } else if (moveDirection.y < 0) {
+        } else if (moveDirection.y < 0 && Mathf.Abs(moveDirection.y) > Mathf.Abs(moveDirection.x)) {
             animator.SetInteger("RunDirection", 3); // down
         } else {
             animator.SetInteger("RunDirection", 0); // idle
