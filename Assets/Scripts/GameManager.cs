@@ -10,12 +10,12 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     private bool loadingScene = false;
 
-    private void OnEnable() {
-        SceneManager.sceneLoaded += OnSceneLoaded;
-    }
-    private void OnDisable() {
-        SceneManager.sceneLoaded -= OnSceneLoaded;
-    }
+    // private void OnEnable() {
+    //     SceneManager.sceneLoaded += OnSceneLoaded;
+    // }
+    // private void OnDisable() {
+    //     SceneManager.sceneLoaded -= OnSceneLoaded;
+    // }
     // Start is called before the first frame update
     void Start()
     {
